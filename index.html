@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Criação de Sites Rápidos para PME | PSTec</title>
+    <meta name="description" content="Você traz o layout, nós entregamos o site pronto. Criação de sites rápidos para pequenas empresas, sem burocracia.">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Sora:wght@700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">PSTec</div>
+        <nav class="nav-links">
+            <a href="index.html" data-i18n="navHome">Home</a>
+            <a href="servicos.html" data-i18n="navServicos">Serviços</a>
+            <a href="projetos.html" data-i18n="navProjetos">Projetos</a>
+            <a href="sobre.html" data-i18n="navSobre">Sobre</a>
+            <a href="contato.html" data-i18n="navContato">Contato</a>
+        </nav>
+        <div class="lang-switch">
+            <button class="lang-btn active" data-lang="pt">PT</button>
+            <button class="lang-btn" data-lang="es">ES</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-precision">
+                        <span data-i18n="badgeText">SITES PRONTOS EM ATÉ 15 DIAS</span>
+                    </div>
+                    <h1 data-i18n="heroTitle">
+                        Você traz a referência.<br>
+                        Eu entrego o <span class="highlight-text">site</span><br>
+                        <span style="color: var(--yellow-primary); background: none;">pronto.</span>
+                    </h1>
+                    <p class="hero-subtitle" data-i18n="heroSubtitle"></p>
+                    <div class="button-group">
+                        <a href="contato.html" class="btn-primary" data-i18n="btnStart">Quero meu site no ar</a>
+                        <a href="projetos.html" class="btn-secondary" data-i18n="btnPortfolio">Ver como funciona</a>
+                    </div>
+                </div>
+
+            <div class="hero-visual">
+                    <div class="visual-card">
+                        <div class="visual-card__header"></div>
+                        <div class="visual-card__body">
+                            <div class="visual-bar long"></div>
+                            <div class="visual-bar medium"></div>
+                            <div class="visual-card__grid">
+                                <div class="grid-square">💻</div>
+                                <div class="grid-square">🚀</div>
+                                <div class="grid-square">⚙️</div>
+                                <div class="grid-square">🔒</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-footer">
+                <span>PSTec</span>
+                <span class="footer-separator">•</span>
+                <span data-i18n="footerCopy">© 2026 PSTec. Todos os direitos reservados.</span>
+            </div>
+        </section>
+    </main>
+
+        <a href="https://wa.me/541176419463"
+        class="float-whatsapp"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Fale conosco no WhatsApp">
+            💬 <span data-i18n="btnWhatsapp"></span>
+        </a>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>

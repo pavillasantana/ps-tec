@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="PSTec">
+
+    <title>Serviços | PSTec</title>
+    <meta name="description" content="Criação de sites rápidos: landing pages, e-commerce e sites institucionais. Direto ao ponto e prontos para converter.">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="logo">PSTec</div>
+
+    <nav class="nav-links">
+        <a href="index.html" data-i18n="navHome"></a>
+        <a href="servicos.html" data-i18n="navServicos"></a>
+        <a href="projetos.html" data-i18n="navProjetos"></a>
+        <a href="sobre.html" data-i18n="navSobre"></a>
+        <a href="contato.html" data-i18n="navContato"></a>
+    </nav>
+
+    <div class="lang-switch">
+        <button class="lang-btn active" data-lang="pt">PT</button>
+        <button class="lang-btn" data-lang="es">ES</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="services-hero">
+        <div class="container services-hero-body">
+            <div class="services-hero-text">
+                <h1 data-i18n="servicesTitle"></h1>
+                <p class="subtitle" data-i18n="servicesDesc"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section class="services-list">
+        <div class="container services-grid">
+
+            <div class="service-card">
+                <div class="service-card-visual">
+                    <div class="service-card-shape"></div>
+                </div>
+                <h3 data-i18n="service1Title"></h3>
+                <p data-i18n="service1Desc"></p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-card-visual">
+                    <div class="service-card-shape"></div>
+                </div>
+                <h3 data-i18n="service2Title"></h3>
+                <p data-i18n="service2Desc"></p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-card-visual">
+                    <div class="service-card-shape"></div>
+                </div>
+                <h3 data-i18n="service3Title"></h3>
+                <p data-i18n="service3Desc"></p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="services-cta">
+        <div class="container">
+            <h2 data-i18n="ctaTitle"></h2>
+            <a href="contato.html" class="btn-primary" data-i18n="btnStart"></a>
+        </div>
+    </section>
+
+</main>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/541176419463"
+   class="float-whatsapp"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Fale conosco no WhatsApp">
+    💬 <span data-i18n="btnWhatsapp"></span>
+</a>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>

@@ -5,6 +5,7 @@ export default {
     navProjetos: "Projetos",
     navSobre: "Sobre",
     navContato: "Contato",
+    navFaq: "FAQ",
 
     // HERO - Agora com foco em Vendas
     badgeText: "Sites prontos em até 15 dias",
@@ -12,7 +13,7 @@ export default {
     heroSubtitle: "Landing Pages, Sites Institucionais e E-commerce com valores <b>a partir de R$ 1.000</b>. Direto ao ponto e pronto para converter.",
 
     btnStart: "Quero meu site no ar →",
-    btnPortfolio: "Ver como funciona",
+    btnPortfolio: "Ver projetos",
     btnWhatsapp: "Falar agora",
 
     // MÉTODO
@@ -78,5 +79,18 @@ export default {
 
     modalTitle: "Recebido.",
     modalDesc: "Agora é só alinhar e colocar seu site no ar.",
-    footerCopy: "© 2026 PSTec. Todos os direitos reservados."
+    footerCopy: "© 2026 PSTec. Todos os direitos reservados.",
+
+    // FAQ
+    faqTitle: "Perguntas Frequentes",
+    faqQ1: "Quanto tempo leva para ficar pronto?",
+    faqA1: "Até 15 dias úteis após a coleta da referência e do conteúdo.",
+    faqQ2: "O que preciso fornecer?",
+    faqA2: "Apenas uma referência de site que você gosta e o conteúdo (textos, logotipo, imagens).",
+    faqQ3: "O site fica no meu domínio?",
+    faqA3: "Sim. O site é entregue configurado no domínio que você escolher.",
+    faqQ4: "Inclui manutenção após a entrega?",
+    faqA4: "O foco é na criação. Os ajustes pontuais pós-entrega são combinados individualmente.",
+    faqQ5: "Como funciona o pagamento?",
+    faqA5: "Combinado diretamente via WhatsApp antes do início do projeto."
 };

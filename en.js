@@ -5,6 +5,7 @@ export default {
     navProjetos: "Projects",
     navSobre: "About",
     navContato: "Contact",
+    navFaq: "FAQ",
 
     // HERO - Now with Sales Focus
     badgeText: "Websites ready in up to 15 days",
@@ -12,7 +13,7 @@ export default {
     heroSubtitle: "Landing Pages, Institutional Websites and E-commerce starting from <b>$300 USD</b>. Straight to the point and ready to convert.",
 
     btnStart: "I want my website live →",
-    btnPortfolio: "See how it works",
+    btnPortfolio: "View projects",
     btnWhatsapp: "Talk now",
 
     // METHOD
@@ -78,5 +79,18 @@ export default {
 
     modalTitle: "Received.",
     modalDesc: "Now it's just a matter of aligning and getting your website live.",
-    footerCopy: "© 2026 PSTec. All rights reserved."
+    footerCopy: "© 2026 PSTec. All rights reserved.",
+
+    // FAQ
+    faqTitle: "Frequently Asked Questions",
+    faqQ1: "How long does it take to be ready?",
+    faqA1: "Up to 15 business days after collecting the reference and content.",
+    faqQ2: "What do I need to provide?",
+    faqA2: "Just a reference website you like and the content (texts, logo, images).",
+    faqQ3: "Will the website be on my domain?",
+    faqA3: "Yes. The website is delivered configured on the domain of your choice.",
+    faqQ4: "Does it include maintenance after delivery?",
+    faqA4: "The focus is on creation. One-off adjustments after delivery are negotiated individually.",
+    faqQ5: "How does payment work?",
+    faqA5: "Agreed directly via WhatsApp before starting the project."
 };

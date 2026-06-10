@@ -5,6 +5,7 @@ export default {
     navProjetos: "Proyectos",
     navSobre: "Acerca de",
     navContato: "Contacto",
+    navFaq: "FAQ",
 
     // HERO - Ahora con enfoque en Ventas
     badgeText: "Sitios web listos en hasta 15 días",
@@ -12,7 +13,7 @@ export default {
     heroSubtitle: "Landing Pages, Sitios Institucionales y E-commerce desde <b>€900</b>. Directo al punto y listo para convertir.",
 
     btnStart: "Quiero mi sitio web en línea →",
-    btnPortfolio: "Ver cómo funciona",
+    btnPortfolio: "Ver proyectos",
     btnWhatsapp: "Hablar ahora",
 
     // MÉTODO
@@ -78,5 +79,18 @@ export default {
 
     modalTitle: "Recibido.",
     modalDesc: "Ahora es solo alinear y poner tu sitio web en línea.",
-    footerCopy: "© 2026 PSTec. Todos los derechos reservados."
+    footerCopy: "© 2026 PSTec. Todos os derechos reservados.",
+
+    // FAQ
+    faqTitle: "Preguntas Frecuentes",
+    faqQ1: "¿Cuánto tiempo toma estar listo?",
+    faqA1: "Hasta 15 días hábiles después de recopilar la referencia y el contenido.",
+    faqQ2: "¿Qué necesito proporcionar?",
+    faqA2: "Solo una referencia de un sitio web que te guste y el contenido (textos, logotipo, imágenes).",
+    faqQ3: "¿El sitio web queda en mi dominio?",
+    faqA3: "Sí. El sitio web se entrega configurado en el dominio que elijas.",
+    faqQ4: "¿Incluye mantenimiento después de la entrega?",
+    faqA4: "El enfoque está en la creación. Los ajustes puntuales posteriores a la entrega se acuerdan individualmente.",
+    faqQ5: "¿Cómo funciona el pago?",
+    faqA5: "Se acuerda directamente a través de WhatsApp antes del inicio del proyecto."
 };
